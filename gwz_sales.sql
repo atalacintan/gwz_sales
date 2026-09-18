@@ -1,0 +1,1 @@
+SELECT date_date, ROUND(SUM(turnover),2) FROM `project-867b1b46-0e32-44ad-84b.course16.gwz_sales` GROUP BY date_date
