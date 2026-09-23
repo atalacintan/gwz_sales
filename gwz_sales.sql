@@ -1,1 +1,1 @@
-SELECT date_date, ROUND(SUM(turnover),2) AS turnover, ROUND(SUM(purchase_cost),2) AS purchase_cost FROM `project-867b1b46-0e32-44ad-84b.course16.gwz_sales` GROUP BY date_date
+SELECT date_date, ROUND(SUM(turnover),2) AS turnover, ROUND(SUM(purchase_cost),2) AS purchase_cost FROM `project-867b1b46-0e32-44ad-84b.course16.gwz_sales` GROUP BY date_date ORDER BY date_date DESC  
